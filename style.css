@@ -1,0 +1,119 @@
+body {
+  max-width: 450px;
+  margin: auto;
+  background-color: #052700;
+}
+
+
+
+
+/* Header */
+.head {
+  margin: 10px auto;
+  text-align: center;
+  color: #000;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 3px solid #000;
+}
+/* Header */
+
+
+
+
+/* Add TodoList */
+form {
+  box-shadow: 0 2px 2px 0 #000, 0 2px 3px 0 #000;
+  margin: 10px auto;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 10px;
+  background: #0b4402;
+  border: 3px solid #000;
+}
+form p {
+  color: red;
+  margin: 0px;
+}
+.task_input {
+  margin: auto;
+  width: 73%;
+  height: 30px;
+  padding: 10px;
+  border: 2px solid #000;
+}
+.add_btn {
+  width: 45px;
+  margin: auto;
+}
+.bi {
+  margin-bottom: 3px;
+}
+/* Add TodoList */
+
+
+
+
+/* Show TodoList */
+.bg {
+  padding: 10px;
+  background-color: #0b4402;
+  border: 3px solid #000;
+}
+
+
+.todo-item {
+  background: #fff;
+  background-color: #fff;
+  width: 95%;
+  margin: 10px auto;
+  padding: 20px 10px;
+  box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+  border-radius: 5px;
+}
+.todo-item h2 {
+  display: inline-block;
+  padding: 5px 0px;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #555;
+}
+.todo-item small {
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  color: #888;
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.todo-item input {
+  margin: 0px 5px;
+}
+
+
+.remove-to-do {
+  display: block;
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-family: sans-serif;
+  color: rgb(139, 97, 93);
+  text-decoration: none;
+  text-align: right;
+  padding: 0px 5px 8px 0px;
+  border-radius: 50%;
+  transition: background 1s;
+  cursor: pointer;
+}
+.remove-to-do:hover {
+  background: rgb(139, 97, 93);
+  color: #fff;
+}
+
+
+.checked {
+  color: #999 !important;
+  text-decoration: line-through;
+}
+/* Show TodoList */
